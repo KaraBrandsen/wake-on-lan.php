@@ -178,7 +178,7 @@ function endWithErrorMessage($message) {
 function endWithJsonResponse($responseData, $filename = NULL) {
 
   if($responseData) {
-    array_walk_recursive($responseData, function(&$value, &$key) {
+    array_walk_recursive($responseData, function($value, $key) {
       if(is_string($value)) $value = utf8_encode($value);
     });  
   }
