@@ -319,7 +319,8 @@ if('HOST.WAKEUP'===$ajaxOperation) {
     <link href="//fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet"> 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/all.min.css" integrity="sha256-mUZM63G8m73Mcidfrv5E+Y61y7a12O5mW4ezU3bxqW4=" crossorigin="anonymous">
-        
+    <link rel="icon" type="image/x-icon" href="/favicon.ico">    
+
     <style>
     body { font-family: 'Varela Round', 'Segoe UI', 'Trebuchet MS', sans-serif; }
     #ajaxLoader { margin-left: 10px; display: none; }
@@ -413,15 +414,6 @@ if('HOST.WAKEUP'===$ajaxOperation) {
 
 
       <footer class="d-flex flex-wrap justify-content-between">
-
-        <p class="col-6">
-  			  <!-- https://www.iconfinder.com/icons/32338/flag_spain_spanish_flag_icon#size=16 -->
-          <a href="#" data-lang-switch="de-DE"><img id="flag-de" title="Deutsch" alt="Deutsch" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAABkUlEQVQ4jY3Ty27TQBSA4WOc2AE745mxnbEtobxCN8S5vGIfoizYFMTGkVjwAJUQm4oVrSOExIZ3qPN3EQcqtbkc6duc+XV2I/J8vBd257yJJyKvzuT9OzYajX6uVitmsxl1XbNYLI6q65q6rpnP53ie91F839/EcYxSCq01xpijtNYopYiiCM/z1jIMgtamKVmeM3GOsiwpnij3qoqiKHDOkec5xlp8329EwrCVNEWyHCkKpCz/q6rdzrlegUzcrrUpMhg08ncUtlgDLoPCQVWCm0CWgtWgDZg9DToBNYZxzNfAb+QmDFqsoUtTuszSWU1nTM/S2acMndF0iYI44sofNHIThC2JojMJnda70Bzw4gEZtkjEgyQ9zYPYA3RPgURcyaCRb5/Dll9jtvea7Z1he2dPMGzvE/gT8/7Sb+T7j7CFMZAABtCAPUD3TQLEfPgUNHJ7G24gBlQfnJL0bcz1ddDIZjP8Da+BsDc6Yd+9Yb32v4iIfSsyWU6nF8vp9N1ZqupiKWJWIuP02O88ax4BPEaWLPEaiXwAAAAASUVORK5CYII="></img></a>
-          <a href="#" data-lang-switch="en-US"><img id="flag-en" title="English" alt="English" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAACqklEQVQ4jY2Ta0iTARSGj1LURAVnWW3ewAxFy4Et5yxvoGQKZd7INDVn6TKvqdiypqGFpCIazghdidOo3ORLx8zmj1SwLdEmkvStUJCCknVBLfvx9kMhSDEfeDhw3sP5ceAQrcdqg95WMrIiIuvNlMvl1nK53HptdnWZd0TRTKS0DXm1vQhKa0ZJQx+EyY2Q3dXCL7EOVfeewylcjrnfWMe4+d1jcvLPMJ8oVMI1uhpxJUrsjZAjtUIFh9DryKzshm2wDHE1aih40XjtGIIRxzCMcIMxyQ1HMXGfkWdYDht6sRVROa04ltGI2IL7EKXWI+FKG4Rn65FcpoT76VoMtPdjediIBf0YFvSv8HPUhKbSawy5B11gD8XfQZS0BX7xtxEjVUCQUIuYSwr4J9YiOlcB3vFK6BQa/BgcxRfdCD4PjOLXywk0F8sY2uN/jj1T2gFemAzpsgfYF3oVmRUdcBAW4nxZG2z9LiNW9hD1tiIMc3yg2+ED3TZvDG8/iBLaxZBnSDbLFZchvVyJnYJ8SMrbQR4SSG90gNwyUFDdDeLE4+36G6JnYowhcjnFBqc0gPjpiEyrA+1OwcmcZpB9EpLyFSCbOESWtOMmeWOI+OgjPvqIBz3xUUQ2DDV19rKDb+agn/wArdEMvWkWWqMZQ6ZZ9BtZDE3NQW18j4/j0/huNMFinMJXgwkrJhYtVbcYelFZwy490sCiegJLZw8sXU9hUa33U5ca890azKs0mO9S41uPFo3ZeQwp9x9gJ4UiGIQiGAICYTjyHwMCYTgswnSAGFWurgzNLK+YN7jPllCPjTGki3KYhdQVSxJnLGbyV81yxqLkH7P+5ktZfCDXDYqj9loiDseF7LhiNy9fsYevQOwhEKzWjVzLeF6+YuLYBZGdneNm37kl/gDsSQH5dAvcewAAAABJRU5ErkJggg=="></img></a>
-          <a href="#" data-lang-switch="es-ES"><img id="flag-es" title="Española" alt="Española" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAhNJREFUOE+NkzFoE2EUx3/f3SVparFRoq22SaQHDhZrKJymIgq6ODhadHHsIjgIzlIHNycdBTvc0EgFa4gaECuCDg2FEiklhasQoVZpQVotNuflTr7cHZZWG9/4vu/93v//3vcJdoYAvL/kZWrHmUyEIUb9Cy1j9E8DTzxriy+cGhw8aju/QAgQyu4CPLdZHhOCUnn6iXgEi0OofXVUQBa3EiHduXTgMIb7XMyu5KxsUtdl0i/+H4CEaOSnZoqiXM5ahpHSfVuhAsEmGku1BpGoR9chiOEE1sIGEUxzLgQc3gKQEJvKgyUqTz/hLK+Tu3GEY9fTwXBlowagYprLIeCg7kuXNmwm8jYXvn+jcKtKz/1xTlxZ4K05yfBIIlAh7xECjluGcUD3qZJu8+7OSTrKY8wn2+i8WCLdM8da4RVn7n0EIkEjgWl+lgokIBEokCpsyrdzxLpM3rxI0Gl7nD2/wdcfw5y+OwNEtwP6LcPYt2UGDg8nhzi3Ns78e4XeDw7d1yK8zFxm5NJ0c/rhxkzzS1HMWv1WVpeA8KW6rLKXJBts0o2HR5wVVomTZD3YlLQqeFxYLoqpq9HFbG+0z5YjaA5SQdVcGg2BovjDcj0FVfFoOHJDMuexR/XIV+tFUblJbWCANPVta/7Xj/CbQztMvKYkiO9PaZqWymQyvj9pcbdwwHF+UqvVBFp7tdW7bfkzfwPxEcg6YixgfwAAAABJRU5ErkJggg=="></img></a>
-  			</p>
-
-        <p class="col-6 text-muted text-end">&copy; 2021 Andreas Schaefer &lt;asc@schaefer-it.net&gt;</p>
 
       </footer>
 
